@@ -8,27 +8,28 @@
   <link rel="stylesheet" media="screen" href="css/style.css" />
 </head>
   <body>
-    <form action="" method="post" autocomplete="on" enctype="multipart/form-data">
-      <h1>&ensp;Lab 2 Form</h1>
-      <fieldset>
-        <legend><strong>My Info</strong></legend>
+    <header>
+      <h1>Lab 2 Form</h1>
+    </header>
+    <div id="wrapper">
+      <form id="form" action="" method="post" autocomplete="on" enctype="multipart/form-data">
+        <h2><strong>Please enter the following information:</strong></h2>
         <div>
-          <label>Email Address: <input type="email" name="email_field" placeholder="joesmith@domain.com" required></label>
+          <label>Email Address</label>
+          <input type="email" name="email_field" placeholder="joesmith@domain.com" required>
         </div>
         <div>
-          <p>
-            <label>Phone Number: <input type="tel" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required></label>
-          </p>
+          <label>Phone Number</label>
+          <input type="tel" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
         </div>
         <div>
-          <label>Date of Birth: <input type="date_field" name="date_field" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="MM/DD/YYYY" required></label>
+          <label>Date of Birth</label>
+          <input type="date_field" name="date_field" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="MM/DD/YYYY" required>
         </div>
-      </fieldset>
-      <div>
-        <p>
-          <input type="submit" value="Submit">
-        </p>
-      </div>
-    </form>
+        <div>
+          <input id="submitbutton" type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
   </body>
 </html>

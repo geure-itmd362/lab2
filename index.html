@@ -20,7 +20,8 @@
         </div>
         <div>
           <label>Phone Number</label>
-          <input type="tel" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+          <!-- type="tel" will bring up a number pad on an iPhone with no way to enter a dash, hence using type="text" -->
+          <input type="text" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
         </div>
         <div>
           <label>Date of Birth</label>

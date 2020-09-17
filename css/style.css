@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  background: #5d5e5e;
 }
 
 input {
@@ -35,24 +36,35 @@ h2 {
   padding: 0 1rem;
 }
 
+.center {
+  margin: 0 auto;
+  width: 70%;
+  padding: .75rem;
+  overflow: hidden;
+  background: #E7E7E7;
+}
+
 #form {
   padding: 0 2rem;
+
 }
 
 #submitbutton {
-  height: 1.75rem;
+  height: 2rem;
   width: 8.25rem;
   text-align: center;
   color: #fff;
-  background-color: #c00;
-  padding: 0;
-  margin: 1rem auto;
-  font-size: 1.25rem;
+  background-color: black;
+  border: .1875rem solid #c00;
+  margin: .9rem auto;
+  font-size: 1.2rem;
   font-weight: bold;
+  padding-bottom: 1.5rem;
 }
 
-@media screen and (min width: 800px) {
+@media screen and (min-width: 800px) {
   #wrapper {
   max-width: 960px;
+  margin: 0 auto;
   }
 }

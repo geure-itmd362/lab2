@@ -15,7 +15,7 @@ label {
 div {
   margin: 0 0 1rem 0;
   float: left;
-  padding: 0 1rem;
+  padding: 0 6rem;
 }
 
 header {  
@@ -80,16 +80,17 @@ hr {
 }
 
 @media screen and (min-width: 800px) {
-  #wrapper {
-  max-width: 960px;
-  margin: 0 auto;
+  div {
+    padding: 0 1rem;
+  }
+
+  #form{
+    max-width: 960px;
+    margin: 0 auto;
   }
 
   .formcenter {
-  margin: 0 auto;
-  width: 70%;
-  padding: .75rem;
-  overflow: hidden;
-  background: #E7E7E7;
+    width: 70%;
+    max-width: 960px;
   }
 }

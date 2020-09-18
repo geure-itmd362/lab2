@@ -2,6 +2,11 @@ body {
   margin: 0;
   font-family: sans-serif;
   background: #5d5e5e;
+  background-image: url("../images/winprizes.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-size: 100%;
 }
 
 input {
@@ -15,7 +20,7 @@ label {
 div {
   margin: 0 0 1rem 0;
   float: left;
-  padding: 0 4.5rem;
+  padding: 0 5.25rem;
 }
 
 header {  
@@ -29,7 +34,7 @@ header {
 
 h1 {
   margin: 0;
-  padding-top: 1rem;
+  padding-top: .5rem;
 }
 
 h2 {
@@ -46,7 +51,7 @@ hr {
 
 .formcenter {
   margin: 0 auto;
-  width: 100%;
+  /*width: 100%;*/
   padding: .75rem;
   overflow: hidden;
   background: #E7E7E7;
@@ -73,13 +78,17 @@ hr {
   background-color: black;
   border: .1875rem solid #c00;
   margin: .9rem auto;
-  margin-left: 2rem;
+  margin-left: 1.4rem;
   font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 800px) {
+  body {
+      background-size: 50%;
+  }
+
   div {
     padding: 0 1rem;
   }

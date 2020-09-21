@@ -2,11 +2,11 @@ body {
   margin: 0;
   font-family: sans-serif;
   background: #5d5e5e;
-  background-image: url("../images/winprizes.png");
+  background-image: url("../images/winprizes-md.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center bottom;
-  background-size: 100%;
+  /*background-size: 100%;*/
 }
 
 input {
@@ -84,15 +84,17 @@ hr {
   padding-bottom: 1.5rem;
 }
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 700px) {
     body {
-      background-size: 60%;
+      /*background-size: 60%;*/
+    background-image: url("../images/winprizes-sm.png");
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   body {
-      background-size: 50%;
+      /*background-size: 100%;*/
+      background-image: url("../images/winprizes-lg.png");
   }
 
   div {
